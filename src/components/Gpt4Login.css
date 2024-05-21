@@ -1,0 +1,83 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .login-container {
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .tab-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab-container button {
+    padding: 10px 20px;
+    width: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    color:black
+  }
+  
+  .tab-container .active {
+    border-bottom: 2px solid #6200ea;
+    font-weight: bold;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-container input {
+    padding: 10px;
+
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    background-color: #6200ea;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-container .sms-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: #6200ea;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
